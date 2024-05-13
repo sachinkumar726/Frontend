@@ -18,7 +18,7 @@ const Registration = () => {
     }
 
     try {
-      const url = 'https://backend-7feo.onrender.com/register';
+      const url = 'https://backend-ezu0.onrender.com/register';
       const response = await axios.post(url, {
         fullName,
         email,

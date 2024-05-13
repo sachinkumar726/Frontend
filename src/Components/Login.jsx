@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const url = 'https://backend-7feo.onrender.com/login';
+      const url = 'https://backend-ezu0.onrender.com/login';
       const response = await axios.post(url, {
         email,
         password,
